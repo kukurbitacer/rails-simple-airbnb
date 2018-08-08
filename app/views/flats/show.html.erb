@@ -1,10 +1,13 @@
 <h1><%= @flat.name %></h1>
-<p>Adress:</p>
 <p><%= @flat.address %></p>
 <p>description:</p>
 <p><%= @flat.description %></p>
-<p>Price:</p>
-<p><%= @flat.price_per_night %></p>
-<p>Number of guests:</p>
-<p><%= @flat.number_of_guests %></p>
-<img src="https://maps.googleapis.com/maps/api/staticmap?<%= @flat.address %>&zoom=8&size=300x300" alt="" width="300px">
+<div class="numerical-info">
+  <%= @flat.number_of_guests %>
+  <i class="fas fa-user"></i>
+  <%= @flat.price_per_night %>
+  <i class="fas fa-euro-sign"></i>
+</div>
+
+<%= link_to "Edit flat", edit_flat_path(@flat), class: "btn btn-success"  %>
+<img src="https://maps.googleapHells Kitchen, New York&zoom=12&size=300x300" alt="" width="300px">
