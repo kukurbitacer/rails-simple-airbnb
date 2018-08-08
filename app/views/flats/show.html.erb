@@ -1,0 +1,10 @@
+<h1><%= @flat.name %></h1>
+<p>Adress:</p>
+<p><%= @flat.address %></p>
+<p>description:</p>
+<p><%= @flat.description %></p>
+<p>Price:</p>
+<p><%= @flat.price_per_night %></p>
+<p>Number of guests:</p>
+<p><%= @flat.number_of_guests %></p>
+<img src="https://maps.googleapis.com/maps/api/staticmap?<%= @flat.address %>&zoom=8&size=300x300" alt="" width="300px">

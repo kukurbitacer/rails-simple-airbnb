@@ -1,0 +1,30 @@
+.card {
+  background-color: #F7F7F7;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  height : 250px;
+  margin : 10px;
+  position:relative;
+}
+
+.card-footer {
+  background-color: white;
+  height: 40px;
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.card-info {
+  padding: 10px;
+}
+
+.card h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.card a {
+  text-decoration: none;
+}
